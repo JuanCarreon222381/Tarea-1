@@ -1,0 +1,35 @@
+
+// Variable implicita
+
+fun main() {
+    var distancia = 5.5
+    var edad = 21
+    var nombre = Juan
+    var Trabaja = true
+    var Trabajo = Mesero
+
+    
+    // Variables explicita 
+    
+    var ciudad = "Guadalajara"
+    var Dia = "Miercoles"
+    var Iva = "8.0"
+    var NumFav = "37"
+    var Descanso = false
+    
+    // Constantes implicitas
+    
+    val codigoPostal = 32350
+    val IvaP = 16.00
+    val velicidad = 55
+    val simboloPeso = "$"
+    val moneda  = "MXN"
+    
+    // Constante Explicitas
+     val codigoPostal: Int = 64000
+    val tasaIVA: Double = 16.0
+    val moneda: String = "MXN"
+    val velocidadLuz: Long = 299792458
+    val simboloPeso: Char = '$'
+
+    
